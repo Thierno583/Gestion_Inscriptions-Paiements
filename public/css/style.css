@@ -1,0 +1,25 @@
+/* public/css/style.css */
+
+.bg-primaire {
+    background-color: #1A237E !important;
+    color: white;
+}
+
+.bg-validation {
+    background-color: #388E3C !important;
+    color: white;
+}
+
+.bg-erreur {
+    background-color: #D32F2F !important;
+    color: white;
+}
+
+.bg-gris-clair {
+    background-color: #F5F5F5 !important;
+}
+
+.bg-blanc {
+    background-color: #FFFFFF !important;
+}
+

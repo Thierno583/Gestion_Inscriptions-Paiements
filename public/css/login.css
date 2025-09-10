@@ -1,0 +1,133 @@
+/* ====== Page ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #004080, #0073e6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ====== Conteneur ====== */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* ====== Carte ====== */
+.login-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+/* ====== Formulaire ====== */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #0073e6;
+    box-shadow: 0 0 5px rgba(0,115,230,0.4);
+}
+
+/* ====== Case à cocher ====== */
+.form-group.remember {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-group.remember input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.form-group.remember label {
+    font-weight: normal;
+    color: #333;
+    font-size: 14px;
+}
+
+/* ====== Bouton ====== */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+    background: #005bb5;
+}
+
+/* ====== Messages ====== */
+.error-message {
+    color: #d93025;
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* ====== Lien inscription ====== */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-link a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
